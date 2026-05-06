@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Impressum",
-  description: "Impressum von ProGlanz Kaciu Gebaeudereinigung.",
+  description: "Impressum von ProGlanz Kaciu Gebäudereinigung.",
 };
 
 export default function ImpressumPage() {
@@ -14,8 +14,8 @@ export default function ImpressumPage() {
 
         <div className="legal-content">
           <section>
-            <h2>Angaben gemaess Paragraph 5 DDG</h2>
-            <p>ProGlanz Kaciu Gebaeudereinigung</p>
+            <h2>Angaben gemäß § 5 DDG</h2>
+            <p>ProGlanz Kaciu Gebäudereinigung</p>
             <p>Wiebachstr. 1c</p>
             <p>40764 Langenfeld</p>
           </section>
@@ -36,7 +36,7 @@ export default function ImpressumPage() {
           </section>
 
           <section>
-            <h2>Verantwortlich fuer den Inhalt</h2>
+            <h2>Verantwortlich für den Inhalt</h2>
             <p>Kristi Kaciu</p>
             <p>Wiebachstr. 1c</p>
             <p>40764 Langenfeld</p>

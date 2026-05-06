@@ -3,19 +3,19 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Datenschutz",
-  description: "Datenschutzerklaerung von ProGlanz Kaciu Gebaeudereinigung.",
+  description: "Datenschutzerklärung von ProGlanz Kaciu Gebäudereinigung.",
 };
 
 export default function DatenschutzPage() {
   return (
     <main className="legal-page">
       <section className="legal-shell">
-        <h1>Datenschutzerklaerung</h1>
+        <h1>Datenschutzerklärung</h1>
 
         <div className="legal-content">
           <section>
             <h2>1. Verantwortlicher</h2>
-            <p>ProGlanz Kaciu Gebaeudereinigung</p>
+            <p>ProGlanz Kaciu Gebäudereinigung</p>
             <p>Wiebachstr. 1c, 40764 Langenfeld</p>
             <p>
               E-Mail: <a href="mailto:info@proglanzkaciu.de">info@proglanzkaciu.de</a>
@@ -36,12 +36,12 @@ export default function DatenschutzPage() {
               Beim Aufruf dieser Website werden durch den Webserver technisch
               erforderliche Informationen verarbeitet (z. B. IP-Adresse, Datum
               und Uhrzeit, aufgerufene Seite, Browser-Informationen). Die
-              Verarbeitung erfolgt zur technischen Bereitstellung, Stabilitaet
+              Verarbeitung erfolgt zur technischen Bereitstellung, Stabilität
               und Sicherheit der Website.
             </p>
             <p>
               Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes
-              Interesse an einem sicheren und funktionsfaehigen Webauftritt).
+              Interesse an einem sicheren und funktionsfähigen Webauftritt).
             </p>
           </section>
 
@@ -63,7 +63,7 @@ export default function DatenschutzPage() {
             <h2>5. Weitergabe von Daten</h2>
             <p>
               Eine Weitergabe personenbezogener Daten an Dritte erfolgt nur,
-              wenn dies gesetzlich erlaubt ist, zur Vertragserfuellung
+              wenn dies gesetzlich erlaubt ist, zur Vertragserfüllung
               erforderlich ist oder eine gesetzliche Verpflichtung besteht.
             </p>
           </section>
@@ -72,7 +72,7 @@ export default function DatenschutzPage() {
             <h2>6. Speicherdauer</h2>
             <p>
               Personenbezogene Daten werden nur so lange gespeichert, wie dies
-              fuer die jeweiligen Zwecke erforderlich ist oder gesetzliche
+              für die jeweiligen Zwecke erforderlich ist oder gesetzliche
               Aufbewahrungspflichten bestehen.
             </p>
           </section>
@@ -82,12 +82,12 @@ export default function DatenschutzPage() {
             <ul className="legal-list">
               <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
               <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
-              <li>Recht auf Loeschung (Art. 17 DSGVO)</li>
-              <li>Recht auf Einschraenkung der Verarbeitung (Art. 18 DSGVO)</li>
-              <li>Recht auf Datenuebertragbarkeit (Art. 20 DSGVO)</li>
+              <li>Recht auf Löschung (Art. 17 DSGVO)</li>
+              <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+              <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
               <li>Recht auf Widerspruch (Art. 21 DSGVO)</li>
               <li>
-                Recht auf Beschwerde bei einer Datenschutzaufsichtsbehoerde
+                Recht auf Beschwerde bei einer Datenschutzaufsichtsbehörde
                 (Art. 77 DSGVO)
               </li>
             </ul>
@@ -98,7 +98,7 @@ export default function DatenschutzPage() {
             <p>
               Wir nutzen geeignete technische und organisatorische Massnahmen,
               um Ihre Daten gegen Verlust, Manipulation und unberechtigten
-              Zugriff zu schuetzen.
+              Zugriff zu schützen.
             </p>
           </section>
 

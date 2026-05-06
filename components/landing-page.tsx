@@ -267,10 +267,10 @@ export function LandingPage() {
           <a href="#start" className="brand" aria-label={`${companyName} Startseite`}>
             <span className="brand-mark" aria-hidden="true">
               <Image
-                src="/proglanz-logo.jpeg"
+                src="/proglanz-logo.png"
                 alt=""
-                width={52}
-                height={52}
+                width={72}
+                height={72}
                 className="brand-logo"
                 priority
               />
@@ -297,6 +297,17 @@ export function LandingPage() {
         <section className="section hero" id="start">
           <div className="container hero-grid">
             <div className="hero-copy">
+              <div className="hero-logo-wrap" aria-hidden="true">
+                <Image
+                  src="/proglanz-logo.png"
+                  alt=""
+                  width={300}
+                  height={300}
+                  className="hero-logo"
+                  priority
+                />
+              </div>
+
               <p className="eyebrow">
                 <MapPinIcon width={16} height={16} />
                 Gebäudereinigung in Ihrer Region
